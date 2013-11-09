@@ -1,0 +1,36 @@
+{
+  "name": "tennu-translate",
+  "version": "1.0.0",
+  "description": "Translate Command for the Tennu IRC Bot",
+  "maintainers": [
+    {
+      "name": "Ryan Scheel",
+      "email": "ryan.havvy@gmail.com",
+      "web": "http://havvy.net"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Ryan Scheel",
+      "email": "ryan.havvy@gmail.com",
+      "web": "http://havvy.net"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Havvy/tennu-translate.git"
+  },
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "keywords": [
+    "irc",
+    "bot",
+    "tennu"
+    "translate"
+  ],
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {}
+}
