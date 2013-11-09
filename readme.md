@@ -6,16 +6,13 @@ Uses the Google Translation service to translate IRC as your request.
 
 ```javascript
 {
-    // rest of config
+    // rest of tennu config
 
-    "modules": {
-        // other modules config
-
-        "translate": {
-            "api-key": "your google translate api key",
-            "from-language": "default language to assume for !translateto"
-            "to-language": "default langauge to translate to for !translatefrom"
-            "error-message": "Translation failed."
+    "translate": {
+        "api-key": "your google translate api key",
+        "from-language": "default language to assume for !translateto"
+        "to-language": "default langauge to translate to for !translatefrom"
+        "error-message": "Translation failed."
         }
     }
 }

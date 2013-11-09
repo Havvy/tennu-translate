@@ -1,7 +1,7 @@
 var translation_api = require('google-translate');
 
 module.exports = function (tennu) {
-    var config = tennu.config('modules').translate;
+    var config = tennu.config('translate');
     var api = translate_api(config['api-key']);
 
     var translate = function (channel, from, to, phrase) {
